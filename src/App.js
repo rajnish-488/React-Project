@@ -1,11 +1,10 @@
-import Header from "./component/Header.js";
+import Header from "./component/Header/Header.js";
+import Oldheader from "./component/Oldheader/Oldheader.js";
+import "./App.css";
 function App() {
   return (
     <div>
-      <Header />
-      <h1>
-        the work is started!
-      </h1>
+      <Oldheader />
     </div>
   );
 }
