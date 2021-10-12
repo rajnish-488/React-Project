@@ -36,9 +36,9 @@ function Oldheader() {
 
                <div className="burger" onClick={() => setToggle(!isToggle)}>
                   <div className="burger-box" >
-                     <div className="line1">CLICK IT</div>
-                     <div className="line1">CLICK IT</div>
-                     <div className="line1">CLICK IT</div>
+                     <div className="line1"></div>
+                     <div className="line1"></div>
+                     <div className="line1"></div>
                   </div>
                </div>
 
