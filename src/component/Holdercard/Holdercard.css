@@ -2,13 +2,5 @@
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
-.card-section {
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-top: 100px;
-}
 
-.cardblock {
-  display: flex;
-  justify-content: space-around;
-}
+

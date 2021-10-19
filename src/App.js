@@ -10,8 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Oldheader />
+        
         <div style={{ height: "60px" }}></div>
+        
 
 
         <Route path="/">
@@ -20,7 +21,7 @@ function App() {
           <Holdercard />
         </Route>
 
-
+        <Oldheader />
       </div>
     </BrowserRouter>
   );

@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 }
 
-.sticky {
+.rajsticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.navbar{
+.rajnavbar{
 	
 	display: flex;
 	justify-content: space-between;
@@ -24,28 +24,28 @@
 
 }
 
-.logo{
+.rajlogo{
 		display: flex;
 		margin-left: 65px;
 
 }
 
 
-.logo-img{
+.rajlogo-img{
 	margin-right: 3px;
 
 	
 }
-.logo-img:hover{
+.rajlogo-img:hover{
 	transform: scale(1.2);
 }
 
-.logo-name{
+.rajlogo-name{
 	color: darkred;
 	text-transform: uppercase;
 	}
 
-.nav-link{
+.rajnav-link{
 	color: blueviolet;
 	display: flex;
 	justify-content: space-around;
@@ -54,12 +54,12 @@
 
 }
 
-.nav-link li{
+.rajnav-link li{
 	margin-left: 30px;
 	list-style: none;
 }
 
-.nav-link a{
+.rajnav-link a{
 
 	text-decoration: none;
 	letter-spacing: 3px;
@@ -67,12 +67,12 @@
 	font-size: 15px;
 }
 
-.burger{
+.rajburger{
 	margin-right: 30px;
 	display: none;
 }
 
-.burger .burger-box{
+.rajburger .rajburger-box{
 	border: 3px solid black;
 	border-radius: .4em;
 	height: 40px;
@@ -80,7 +80,7 @@
 
 }
 
-.burger .burger-box div{
+.rajburger .rajburger-box div{
 	width: 37px;
 	height: 7px;
 	background-color: white;
@@ -91,13 +91,13 @@
 	font-weight: bolder;
 }
 
-.nav-link li:hover{
+.rajnav-link li:hover{
 	
 	transform: scale(1.3);
 	
 }
 
-.nav-link li a:hover{
+.rajnav-link li a:hover{
 	
 	color: red;
 }
@@ -108,7 +108,7 @@
 		/*overflow: hidden;*/
 		overflow-x: hidden;
 	}
-	.nav-link{
+	.rajnav-link{
 		position: absolute;
 		right: 0px;
 		height: 50vh;
@@ -127,30 +127,30 @@
 		
 	}
 
-	.nav-link li{
+	.rajnav-link li{
 		opacity: 0;
 	}
 
-	.burger{
+	.rajburger{
 		display: block;
 		cursor: pointer;
 	}
-	.logo{
+	.rajlogo{
 		margin-left: 50px;
 	}
-	.nav-active{
+	.rajnav-active{
 			transform: translateX(0%);
 			
 	}
-	.nav-inactive{
+	.rajnav-inactive{
 			transform: translateX(100%);
 	}
 
-	.nav-link-active{
+	.rajnav-link-active{
 		animation: navLinkFade 0.5s ease-in 0.5s forwards;
 	}
 
-	.nav-link-inactive{
+	.rajnav-link-inactive{
 		animation: navLinkunFade 0.5s ease-in 0.5s forwards;
 	}
 
@@ -182,6 +182,6 @@
 	}
 }
 
-.header-up{
+.rajheader-up{
 	height: 60px;
 }
