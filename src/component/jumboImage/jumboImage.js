@@ -13,17 +13,7 @@ const jumboImage = () => {
             <div className="jimage">
                <img src={image1} alt="nating " />
             </div>
-            <div className="jimage">
-               <img src={image2} alt="nating " />
-            </div>
-            <div className="jimage">
-               <img src={image3} alt="nating " />
-            </div>
-            <div className="jimage">
-               <img src={image4} alt="nating " />
-            </div>
          </div>
-
       </div>
    )
 }

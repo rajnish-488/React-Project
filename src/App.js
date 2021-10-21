@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Oldheader from "./component/Oldheader/Oldheader.js";
 import JumboImage from "./component/jumboImage/jumboImage.js";
 import Holdercard from "./component/Holdercard/Holdercard.js";
+import Dibetes from "./predictionform/dibetes.js";
 
 
 import "./App.css";
@@ -15,11 +16,14 @@ function App() {
         
 
 
-        <Route path="/">
+        <Route path="/home" >
           <JumboImage />
-          <div style={{ height: "60px" }}></div>
           <Holdercard />
         </Route>
+
+        <Route path="/dibetes">
+          <Dibetes />
+         </Route>
 
         <Oldheader />
       </div>

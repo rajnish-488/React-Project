@@ -5,14 +5,14 @@ import {Row, Col, Container} from 'reactstrap';
 
 const Holdercard = () => {
    return (
-      <div>
+      <div className="holder">
          <h1 className="heading"> The Prediction Section</h1>
          <div style={{ height: "60px" }}></div>
             <Container>
             <Row>
                <Col >
                   
-                  <Card path='../images/img1.jpg' title="Dibatese Prediction for the Females" link="/dibates" titlecolor="red" buttoncolor="blue"/>
+                  <Card path='../images/diabetes.jpg' title="Dibatese Prediction for the Females" link="/dibates" titlecolor="red" buttoncolor="blue"/>
                   
                </Col>
                 <Col>

@@ -1,6 +1,14 @@
+.holder{
+  background-color: #1f2833;
+}
+
 .heading {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-weight: 100;
+  color: #66fcf1;
+  margin-top: 60px;
 }
 
 
