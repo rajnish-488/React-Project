@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,3 +70,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# qrgenerator" 
+=======
+# MEDPREDICT
+
+###  This is a react based application have the multiple mode to predict the medical data.
+
+To run the code use 
+
+## npm install
+To run on the local host use 
+
+##npm start
+>>>>>>> 8c46ae26ae3c8d623ce03a262b39ef573e379153
