@@ -16,7 +16,7 @@ function App() {
         
 
 
-        <Route path="/home" >
+        <Route path="/" Exact >
           <JumboImage />
           <Holdercard />
         </Route>
